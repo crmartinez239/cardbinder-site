@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Card Binder</title>
+<meta name="description" content="Card Binder: snap a trading card, and AI fills in the rest.">
+<style>
+  :root { --bg: #fbf8ff; --text: #1b1b21; --muted: #46464f; --accent: #4f5b92; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #121318; --text: #e4e1e9; --muted: #c6c5d0; --accent: #b8c4ff; }
+  }
+  body {
+    margin: 0; min-height: 100vh; display: grid; place-items: center;
+    background: var(--bg); color: var(--text); text-align: center;
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 520px; padding: 32px 20px; }
+  img { width: 112px; height: 112px; border-radius: 26px; }
+  h1 { font-size: 2.2rem; margin: 16px 0 4px; }
+  p { color: var(--muted); margin: 8px 0 24px; }
+  a { color: var(--accent); margin: 0 10px; }
+</style>
+</head>
+<body>
+<main>
+  <img src="/icon.png" alt="Card Binder icon">
+  <h1>Card Binder</h1>
+  <p>Snap a photo of a trading card and Card Binder identifies it, files it in a binder
+  for its game, and shows what it's worth.</p>
+  <nav>
+    <a href="/privacy/">Privacy Policy</a>
+    <a href="/terms/">Terms of Use</a>
+    <a href="mailto:support@heymon.gg">Contact</a>
+  </nav>
+</main>
+</body>
+</html>
